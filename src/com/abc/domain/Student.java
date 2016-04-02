@@ -1,7 +1,7 @@
 package com.abc.domain;
 
 public class Student {
-
+	//sss
 	private Integer id;//主键
 	private String name; //姓名
 	private String gender;//性别
