@@ -11,8 +11,6 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import com.abc.domain.Student;
 
 public class AddDemo {
-	//soft
-	///
 	//ss1-hub
 	//ss1-eclipse
 	//ss2-hub dd
