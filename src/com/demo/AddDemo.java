@@ -11,7 +11,7 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import com.abc.domain.Student;
 
 public class AddDemo {
-
+	//ss1-hub
 	private static SqlSessionFactory factory = null;
 	
 	//静态代码块，在类被初始化的时候执行，比如说第一次引用
