@@ -18,6 +18,7 @@ public class AddDemo {
 	// 类的静态变量，或者创建类的第一个实例的时候
 	static {
 		//ss
+		//ss2
 		String resource = "mybatis-config.xml";
 		try {
 			// 读取主配置文件
