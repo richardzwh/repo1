@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!-- 作者MyBatis博客：
+         http://legend2011.blog.51cto.com/3018495/d-5 -->
+	
+	<environments default="development">
+		<!-- id必须唯一 -->
+		<environment id="development">
+			<!-- 事务管理器，这里直接使用jdbc的事务管理能力 -->
+			<transactionManager type="jdbc" />
+			<!-- 数据源配置 -->
+			<dataSource type="POOLED">
+				<property name="driver" value="com.mysql.jdbc.Driver" />
+				<property name="url" value="jdbc:mysql://localhost/courseman" />
+				<property name="username" value="root" />
+				<property name="password" value="root" />
+			</dataSource>
+		</environment>
+	</environments>
+
+	<!-- 采用相对类路径 -->
+	<mappers>
+		<mapper resource="mapper/StudentMapper.xml" />
+	</mappers>
+</configuration>
