@@ -13,6 +13,7 @@ import com.abc.domain.Student;
 public class AddDemo {
 	//ss1-hub
 	//ss1-eclipse
+	//ss2-hub
 	private static SqlSessionFactory factory = null;
 	
 	//静态代码块，在类被初始化的时候执行，比如说第一次引用
