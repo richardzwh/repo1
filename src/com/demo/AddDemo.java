@@ -11,6 +11,7 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import com.abc.domain.Student;
 
 public class AddDemo {
+	//ss1-hub
 	//ss1-eclipse
 	private static SqlSessionFactory factory = null;
 	
