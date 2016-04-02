@@ -24,6 +24,7 @@ public class AddDemo {
 		//ss4-eclipse
 		//ss5-hub
 		//ss6-hub
+		//ss7-hub
 		String resource = "mybatis-config.xml";
 		try {
 			// 读取主配置文件
