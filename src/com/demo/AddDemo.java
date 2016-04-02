@@ -20,6 +20,7 @@ public class AddDemo {
 		//ss
 		//ss2
 		//ss3-hub
+		//ss4-hub
 		//ss4-eclipse
 		String resource = "mybatis-config.xml";
 		try {
